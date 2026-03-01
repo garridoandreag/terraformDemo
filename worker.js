@@ -373,7 +373,7 @@ async function handleRequest(request) {
     </nav>
 
     <section class="hero">
-      <div class="hero-tag">&#9889; Desplegado con Terraform</div>
+      <div class="hero-tag">&#9889; Desplegado con Terraform Cloud</div>
       <h1>Infraestructura<br><span class="gradient-text">como Código</span></h1>
       <p>Este worker fue desplegado automáticamente usando Terraform. Sin clicks, sin consolas, solo código declarativo.</p>
     </section>
