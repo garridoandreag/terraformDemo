@@ -12,13 +12,11 @@ provider "cloudflare" {
 
 variable "account_id" {
   type        = string
-  description = "Cloudflare Account ID"
 }
 
 variable "script_name" {
   type        = string
   default     = "hello-terraform"
-  description = "Nombre del Worker (parte del URL)."
 }
 
 resource "cloudflare_workers_script" "hello" {
