@@ -8,6 +8,7 @@ terraform {
 }
 
 provider "cloudflare" {
+  
 }
 
 variable "account_id" {
